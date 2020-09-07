@@ -1,0 +1,25 @@
+### Submitting to ENA
+#	https://ena-docs.readthedocs.io/en/latest/submit/general-guide/interactive.html
+
+1.	Go to ENA's webin (and register/log-in): https://www.ebi.ac.uk/ena/submit/sra/#home
+	1.1.	Under "New submission", click "Register Study (project)", click Next
+	1.2.	Fill in the fields. OK, done.
+
+#Type	Accession	Unique Name
+#Study	PRJEB40223	ena-STUDY-NTNU Museum-04-09-2020-14:52:56:597-839
+
+
+2.	Go to ENA's webpage (and register)
+	2.1.	Under "New submission", click "Register Samples", click Next
+	2.2.	"Select checklist", "Other checklists", "Default sample checklist".
+	2.3.	Fill the details.. and "Download the checklist"
+	2.4.	Clean up the checklist. Add species names, etc
+	2.5.	"Restart submission"
+	2.6.	"Register Samples", "Use a done checklist"
+	2.7.	Upload the checklist :)
+
+3. Install the webdownloader
+	3.1 On https://ena-docs.readthedocs.io/en/latest/submit/fileprep/upload.html#using-ftp-command-line-client-on-linux-mac
+	click "Download the Webin File Uploader"
+	3.2 Open it and use your username , and password
+	3.3 Select upload files
