@@ -23,3 +23,15 @@
 	click "Download the Webin File Uploader"
 	3.2 Open it and use your username , and password
 	3.3 Select upload files
+
+4. Go on "New Submission" tab on ENA.
+	4.1 "Submit sequence reads and experiments", next
+	4.2 Select the Study created before (notice that now we're under New submission:Study)
+	4.3 Click Skip (notice that now we're under New submission:Sample)
+	4.4 OK - now it's metadata again. The easiest way to do it is, put one sample there, and "Download spreadsheet". Then replicate everything for every sample (super easy if you use sublimetext's "control+alt" function). Example below:
+
+project_accession	project_alias	sample_alias	experiment_alias	run_alias	library_name	library_source	library_selection	library_strategy	design_description	library_construction_protocol	instrument_model	file_type	library_layout	insert_size	forward_file_name	forward_file_md5	forward_file_unencrypted_md5	reverse_file_name	reverse_file_md5	reverse_file_unencrypted_md5
+		ile_callot_403_03_blue_lane02.fq.gz	ena-EXPERIMENT-NTNU Museum-14-09-2020-18:37:51:537-1	ena-RUN-NTNU Museum-14-09-2020-18:37:51:538-1	Stygocapitella RADseq	GENOMIC	Restriction Digest	RAD-Seq			Illumina HiSeq 4000	fastq	PAIRED	300	ile_callot_403_03_blue_lane02.1.fq.gz			ile_callot_403_03_blue_lane02.2.fq.gz
+
+
+Now you may enjoy life again..
