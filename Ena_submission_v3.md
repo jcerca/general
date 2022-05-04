@@ -35,13 +35,3 @@ FASTQ   DTG-OmniC-104_R2_001.fastq.gz
 ```
 java -jar webin-cli-4.3.0.jar -context=reads -manifest=manifestDove.tsv -userName=Webin-56891 -password XXXXXXXX -submit
 ```
-
-
-NOTE TO SELF. INSTEAD OF 4/5/6 RISHI SUGGESTED:
-```
-ml lftp/4.9.1-GCCcore-8.3.0
-lftp
-open webin.ebi.ac.uk
-user Webin-56891
-mput *gz
-```
