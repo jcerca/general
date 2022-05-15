@@ -1,4 +1,3 @@
-### Under construction.
 Bloody hell. They keep changing the form.
 
 1. Go to https://www.ebi.ac.uk/ena/submit/webin/ ; and log in.
@@ -16,8 +15,9 @@ tax_id	scientific_name	sample_alias	sample_title	sample_description
 ```
 
 4. Download the web-in plugin [from here](https://github.com/enasequence/webin-cli/releases) and load java on the cluster.
-5. Make a manifest file, like this for each pair of libraries.
+5. Make a manifest file, for each pair of libraries.
 
+Illumina example:
 ```
 STUDY   PRJEB52418
 SAMPLE  ERS11818460
@@ -29,6 +29,19 @@ LIBRARY_SELECTION       unspecified
 LIBRARY_STRATEGY        Hi-C
 FASTQ   DTG-OmniC-104_R1_001.fastq.gz
 FASTQ   DTG-OmniC-104_R2_001.fastq.gz
+```
+
+Pacbio Example
+```
+STUDY   PRJEB52418
+SAMPLE  ERS11818460
+NAME    outravezArroz_pacbioJSDJ
+PLATFORM        PACBIO_SMRT
+INSTRUMENT      PacBio RS
+LIBRARY_SOURCE  GENOMIC
+LIBRARY_SELECTION       RANDOM
+LIBRARY_STRATEGY        WGS
+BAM     XDOVE_20200519_S64018_PL100155685-2_A01.subreads.bam
 ```
 
 6. Run
